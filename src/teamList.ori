@@ -1,0 +1,5 @@
+<ul>
+{{ @map/values(teamData.yaml, =`
+  <li>{{ name }}</li>
+`) }}
+</ul>
