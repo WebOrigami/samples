@@ -1,0 +1,7 @@
+name: world
+message: !ori greet(name)
+names:
+  - Alice
+  - Bob
+  - Carol
+greetings: !ori (@map/values(names, greet))

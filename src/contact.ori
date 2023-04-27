@@ -1,0 +1,4 @@
+{{ page.ori(`
+    <h1>Contact Us</h1>
+    … more contact page content …
+`) }}
