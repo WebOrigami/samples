@@ -3,9 +3,12 @@ banner: !ori (`<p>{{ title }}</p>`)
 title: My Blog
 ---
 <html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
   <body>
     {{ banner }}
-    <p>Page content goes here</p>
+    {{ @text }}
     {{ banner }}
   </body>
 </html>
