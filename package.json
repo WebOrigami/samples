@@ -2,6 +2,6 @@
   "name": "@graphorigami/samples",
   "type": "module",
   "dependencies": {
-    "@graphorigami/origami": "0.0.25"
+    "@graphorigami/origami": "github:GraphOrigami/origami#1a499c64"
   }
 }
