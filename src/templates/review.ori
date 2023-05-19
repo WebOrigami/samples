@@ -1,0 +1,3 @@
+<p>
+  Rating: {{ stars.ori({ count: 5 }) }}
+</p>

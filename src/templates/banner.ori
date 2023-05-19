@@ -1,0 +1,14 @@
+---
+banner: !ori (`<p>{{ title }}</p>`)
+title: My Site
+---
+<html>
+  <head>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    {{ banner }}
+    <p>Welcome to my site.</p>
+    {{ banner }}
+  </body>
+</html>

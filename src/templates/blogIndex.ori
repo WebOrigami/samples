@@ -1,3 +1,7 @@
+---
+title: Blog Post
+---
+<ul>
 {{ @map/values(posts, =`
   <li>
     <a href="posts/{{ @key }}">
@@ -5,3 +9,4 @@
     </a>
   </li>
 `) }}
+</ul>
