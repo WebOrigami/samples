@@ -1,7 +1,4 @@
 {
   "name": "@graphorigami/samples",
-  "type": "module",
-  "dependencies": {
-    "@graphorigami/origami": "https://gitpkg.now.sh/GraphOrigami/origami/packages/origami?d9300335"
-  }
+  "type": "module"
 }
