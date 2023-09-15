@@ -1,7 +1,7 @@
 name: world
-message: !ori greet(name)
+message: !ori greet.js(name)
 names:
   - Alice
   - Bob
   - Carol
-greetings: !ori (@map/values(names, greet))
+greetings: !ori (@map/values(names, greet.js))
