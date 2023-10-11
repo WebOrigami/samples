@@ -1,1 +1,1 @@
-{{ stars.orit { count: 3 } }}
+{{ @local/stars.orit { count: 3 } }}

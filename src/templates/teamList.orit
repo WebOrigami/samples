@@ -1,5 +1,5 @@
 <ul>
-{{ @map/values(teamData.yaml, =`
-  <li>{{ name }}</li>
+{{ @map/values(@local/teamData.yaml, =`
+  <li>{{ _/name }}</li>
 `) }}
 </ul>

@@ -2,7 +2,7 @@
 title: Blog Post
 ---
 <ul>
-{{ @map/values(posts, =`
+{{ @map/values(@local/posts, =`
   <li>
     <a href="posts/{{ @key }}">
       {{ title }}

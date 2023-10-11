@@ -1,1 +1,1 @@
-{{ @if(rating, `Rating: {{ rating }}`, `Not yet rated`) }}
+{{ @if(_/rating, `Rating: {{ _/rating }}`, `Not yet rated`) }}
