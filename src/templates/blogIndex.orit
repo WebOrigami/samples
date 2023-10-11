@@ -1,11 +1,11 @@
 ---
-title: Blog Post
+defaultTitle: A blog post
 ---
 <ul>
 {{ @map/values(@local/posts, =`
   <li>
     <a href="posts/{{ @key }}">
-      {{ title }}
+      {{ @or(_/title, defaultTitle) }}
     </a>
   </li>
 `) }}

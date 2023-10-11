@@ -1,11 +1,11 @@
 ---
-title: Blog Post
+defaultTitle: A blog post
 ---
 <html>
   <head>
-    <title>{{ title }}</title>
+    <title>{{ @or(_/title, defaultTitle) }}</title>
   </head>
   <body>
-    {{ @body(@text) }}
+    {{ @document(_) }}
   </body>
 </html>
