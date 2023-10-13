@@ -1,2 +1,2 @@
 Here are the text strings in the greetings graph:
-{{ @graph/from @local/greetings.yaml }}
+{{ @graph/from greetings.yaml }}

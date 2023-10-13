@@ -1,1 +1,1 @@
-<span class="stars">{{ @repeat(count, "★") }}</span>
+<span class="stars">{{ @repeat(_, "★") }}</span>
