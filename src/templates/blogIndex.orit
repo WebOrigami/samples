@@ -2,11 +2,11 @@
 defaultTitle: A blog post
 ---
 <ul>
-{{ @map/values(posts, =`
+{{ @tree/map({ source: posts, valueMap: =`
   <li>
     <a href="posts/{{ @key }}">
       {{ @or(_/title, defaultTitle) }}
     </a>
   </li>
-`) }}
+`}) }}
 </ul>
