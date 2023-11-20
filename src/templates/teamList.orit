@@ -1,5 +1,5 @@
 <ul>
-{{ @tree/map({ source: teamData.yaml, valueMap: =`
+{{ @tree/map(teamData.yaml, =`
   <li>{{ _/name }}</li>
-`}) }}
+`) }}
 </ul>
