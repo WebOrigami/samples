@@ -6,6 +6,6 @@ defaultTitle: A blog post
     <title>{{ @or(_/title, defaultTitle) }}</title>
   </head>
   <body>
-    {{ @document(_) }}
+    {{ _/@text }}
   </body>
 </html>
