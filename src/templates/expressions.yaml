@@ -4,4 +4,4 @@ names:
   - Alice
   - Bob
   - Carol
-greetings: !ori "@tree/map(names, greet.js)"
+greetings: !ori "@map(names, greet.js)"

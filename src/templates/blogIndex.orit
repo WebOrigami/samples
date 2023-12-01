@@ -2,7 +2,7 @@
 defaultTitle: A blog post
 ---
 <ul>
-{{ @tree/map(posts, =`
+{{ @map(posts, =`
   <li>
     <a href="posts/{{ @key }}">
       {{ @or(_/title, defaultTitle) }}
