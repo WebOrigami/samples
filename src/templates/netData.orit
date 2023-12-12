@@ -1,1 +1,1 @@
-Bob lives in {{ (https://graphorigami.org/samples/templates/teamData.yaml)/1/location }}.
+Bob lives in {{ (https://weborigami.org/samples/templates/teamData.yaml)/1/location }}.
