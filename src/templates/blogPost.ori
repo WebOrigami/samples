@@ -1,7 +1,4 @@
----
-defaultTitle: A blog post
----
-<html>
+=`<html>
   <head>
     <title>{{ @or(_/title, defaultTitle) }}</title>
   </head>
@@ -9,3 +6,4 @@ defaultTitle: A blog post
     {{ _/@text }}
   </body>
 </html>
+`

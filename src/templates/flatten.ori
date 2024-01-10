@@ -1,0 +1,3 @@
+`Here are the text strings in the greetings tree:
+{{ @tree/from greetings.yaml }}
+`

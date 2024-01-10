@@ -1,1 +1,0 @@
-The leader of our team is {{ teamData.yaml/0/name }}.

@@ -1,0 +1,10 @@
+=`<ul>
+{{ @map(posts, =`
+  <li>
+    <a href="posts/{{ @key }}">
+      {{ _/title }}
+    </a>
+  </li>
+`) }}
+</ul>
+`

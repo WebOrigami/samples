@@ -1,1 +1,0 @@
-Hello, {{ uppercase.js("world") }}!
