@@ -1,8 +1,8 @@
 =`<ul>
-{{ @map(posts, =`
+{{ @map(_, =`
   <li>
     <a href="posts/{{ @key }}">
-      {{ _/title }}
+      {{ @or(_/title, "A blog post") }}
     </a>
   </li>
 `) }}

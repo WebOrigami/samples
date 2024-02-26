@@ -1,6 +1,6 @@
 =`<html>
   <head>
-    <title>{{ @or(_/title, defaultTitle) }}</title>
+    <title>{{ @or(_/title, "A blog post") }}</title>
   </head>
   <body>
     {{ _/@text }}
