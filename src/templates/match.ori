@@ -1,0 +1,3 @@
+{
+  user = @match('[name].txt', =`Hello, ${ name }.`)
+}
