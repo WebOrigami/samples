@@ -1,1 +1,1 @@
-`I have a pet named {{ pet.txt }}.`
+`I have a pet named ${ pet.txt }.`

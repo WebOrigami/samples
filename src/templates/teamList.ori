@@ -1,6 +1,6 @@
 =`<ul>
 {{ @map(teamData.yaml, =`
-  <li>{{ _/name }}</li>
+  <li>${ _/name }</li>
 `) }}
 </ul>
 `

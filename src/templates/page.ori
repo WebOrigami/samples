@@ -6,7 +6,7 @@
     <title>My Site</title>
   </head>
   <body>
-{{ _ }}
+${ _ }
   </body>
 </html>
 `

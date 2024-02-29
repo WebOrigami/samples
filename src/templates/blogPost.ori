@@ -1,9 +1,9 @@
 =`<html>
   <head>
-    <title>{{ @or(_/title, "A blog post") }}</title>
+    <title>${ @or(_/title, "A blog post") }</title>
   </head>
   <body>
-    {{ _/@text }}
+    ${ _/@text }
   </body>
 </html>
 `

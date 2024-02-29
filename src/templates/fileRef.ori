@@ -1,1 +1,1 @@
-=`This project is {{ copyright.txt }}.`
+=`This project is ${ copyright.txt }.`
