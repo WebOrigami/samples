@@ -1,4 +1,7 @@
 {
   "name": "@weborigami/samples",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@weborigami/origami": "0.0.47"
+  }
 }
