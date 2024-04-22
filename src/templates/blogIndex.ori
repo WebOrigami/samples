@@ -1,7 +1,7 @@
 (posts) => `<ul>
-{{ @map(posts, (post, filename) => `
+{{ @map(posts, (post, fileName) => `
   <li>
-    <a href="posts/${ filename }">
+    <a href="posts/${ fileName }">
       ${ @or(post/title, "A blog post") }
     </a>
   </li>
