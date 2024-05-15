@@ -1,1 +1,1 @@
-=`<span class="stars">${ @repeat(_, "★") }</span>`
+(number) => `<span class="stars">${ @repeat(number, "★") }</span>`
