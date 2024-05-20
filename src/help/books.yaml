@@ -1,0 +1,23 @@
+- title: "1984"
+  author: "George Orwell"
+  genre:
+    - "Sci-Fi"
+- title: "Pride and Prejudice"
+  author: "Jane Austen"
+  genre:
+    - "Romance"
+- title: "Jane Eyre"
+  author: "Charlotte Brontë"
+  genre:
+    - "Romance"
+    - "Gothic"
+- title: "Frankenstein"
+  author: "Mary Shelley"
+  genre:
+    - "Sci-Fi"
+    - "Gothic"
+- title: "The Time Traveler's Wife"
+  author: "Audrey Niffenegger"
+  genre:
+    - "Romance"
+    - "Sci-Fi"
