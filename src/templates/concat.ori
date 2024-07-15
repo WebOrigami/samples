@@ -1,2 +1,1 @@
-=`Here are the fragments concatenated together:
-${ fragments }`
+=`Here are the fragments concatenated together: ${ fragments }`

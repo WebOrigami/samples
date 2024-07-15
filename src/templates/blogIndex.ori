@@ -1,10 +1,10 @@
 (posts) => `<ul>
-${ @map(posts, (post, fileName) => `
-  <li>
-    <a href="posts/${ fileName }">
-      ${ @or(post/title, "A blog post") }
-    </a>
-  </li>
-`) }
-</ul>
+  ${ @map(posts, (post, fileName) => `
+    <li>
+      <a href="posts/${ fileName }">
+        ${ @or(post/title, "A blog post") }
+      </a>
+    </li>
+  `) }
+  </ul>
 `
