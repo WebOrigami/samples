@@ -1,0 +1,6 @@
+{
+  name: "Alice"
+  user: {
+    name: `My name is ${name}`
+  }
+}
