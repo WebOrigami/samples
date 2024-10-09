@@ -1,0 +1,8 @@
+{
+  index.html: `
+    <a href="a.html">A</a>
+    <a href="b.html">B</b>
+  `
+
+  a.html: "Page a"
+}
