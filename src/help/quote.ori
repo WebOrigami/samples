@@ -1,0 +1,9 @@
+[pond.txt, cicada.txt] → (files) => `
+  <section>
+    ${ @map(files, (file) => `
+      <pre>
+        ${ file }
+      </pre>
+    `) }
+  </section>
+`
