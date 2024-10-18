@@ -1,0 +1,6 @@
+{
+  data: {
+    title: "My site"
+  }
+  index.html = index.ori(data)
+}
