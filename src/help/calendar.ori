@@ -1,0 +1,9 @@
+@calendarTree("2025-02-26", "2025-03-04")
+
+-> (calendar) =>  @map(calendar, (months, year) =>
+  @map(months, (days, month) => 
+    @map(days, (_, day) => 
+      `Page for ${ @slash/remove(year) }-${ @slash/remove(month) }-${ day }`
+    )
+  )
+)

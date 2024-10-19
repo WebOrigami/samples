@@ -1,0 +1,8 @@
+#!/usr/bin/env ori
+(folder) => @indent`
+  <ul>
+    ${ @map(@keys(folder), (key) => @indent`
+      <li>${ key }</li>
+    `) }
+  </ul>
+`
