@@ -3,5 +3,8 @@
   "type": "module",
   "devDependencies": {
     "@weborigami/origami": "0.0.72"
+  },
+  "scripts": {
+    "start": "ori @serve @watch src, =@debug ."
   }
 }
