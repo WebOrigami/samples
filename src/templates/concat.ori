@@ -1,1 +1,4 @@
-=`Here are the fragments concatenated together: ${ fragments }`
+=@indent`
+  Here are the fragments concatenated together:
+  ${ fragments }
+`
