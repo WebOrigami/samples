@@ -1,6 +1,6 @@
 page.ori({
   title: "About Us"
-  @text: @indent`
+  @text: indent`
     <p>We have fun making websites.</p>
   `
 })

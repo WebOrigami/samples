@@ -1,1 +1,1 @@
-(thing) => @if(thing/rating, `Rating: ${ thing/rating }`, `Not yet rated`)
+(thing) => if(thing/rating, `Rating: ${ thing/rating }`, `Not yet rated`)

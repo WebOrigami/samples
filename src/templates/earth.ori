@@ -1,4 +1,4 @@
 (region) =>
   `The earth's circumference is 40,075 km. ${
-    @if(@equals(region, "US"), "(For you Americans, that's 24,901 miles.)")
+    if(equals(region, "US"), "(For you Americans, that's 24,901 miles.)")
   }`

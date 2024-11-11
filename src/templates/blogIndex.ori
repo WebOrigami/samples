@@ -1,9 +1,9 @@
-(posts) => @indent`
+(posts) => indent`
   <ul>
-    ${ @map(posts, (post, fileName) => @indent`
+    ${ map(posts, (post, fileName) => indent`
       <li>
         <a href="posts/${ fileName }">
-          ${ @or(post/title, "A blog post") }
+          ${ or(post/title, "A blog post") }
         </a>
       </li>
     `) }

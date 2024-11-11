@@ -1,6 +1,6 @@
-=@indent`
+=indent`
   <ul>
-    ${ @map(teamData.yaml, (person) => @indent`
+    ${ map(teamData.yaml, (person) => indent`
       <li>${ person/name }</li>
     `) }
   </ul>

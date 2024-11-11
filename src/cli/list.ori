@@ -1,7 +1,7 @@
 #!/usr/bin/env ori
-(folder) => @indent`
+(folder) => indent`
   <ul>
-    ${ @map(@keys(folder), (key) => @indent`
+    ${ map(keys(folder), (key) => indent`
       <li>${ key }</li>
     `) }
   </ul>
