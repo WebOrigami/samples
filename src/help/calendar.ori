@@ -1,4 +1,4 @@
-tree:calendar({
+calendar({
   start: "2025-02-26"
   end: "2025-03-04"
   value: (year, month, day) => `Page for ${ year }-${ month }-${ day }`
