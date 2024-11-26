@@ -3,7 +3,7 @@
     ${ map(posts, (post, fileName) => indent`
       <li>
         <a href="posts/${ fileName }">
-          ${ or(post/title, "A blog post") }
+          ${ post/title ?? "A blog post" }
         </a>
       </li>
     `) }

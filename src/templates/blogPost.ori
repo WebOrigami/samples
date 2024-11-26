@@ -2,7 +2,7 @@
   <!DOCTYPE html>
   <html>
     <head>
-      <title>${ or(post/title, "A blog post") }</title>
+      <title>${ post/title ?? "A blog post" }</title>
     </head>
     <body>
       ${ post/@text }
