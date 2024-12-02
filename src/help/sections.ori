@@ -1,5 +1,5 @@
 // Return a numbered list of sections
 map(
   ["Introduction", "Basic Operations", "Advanced Operations", "Conclusion"]
-  (section, index) => `${ add(index, 1) }. ${ section }`
+  (section, index) => `${ Number(index) + 1 }. ${ section }`
 )
