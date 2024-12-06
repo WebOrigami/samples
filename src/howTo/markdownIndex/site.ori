@@ -1,0 +1,6 @@
+{
+  pages = {
+    ...data.ori
+    index.html = pagesIndex.ori(data.ori)
+  }
+}

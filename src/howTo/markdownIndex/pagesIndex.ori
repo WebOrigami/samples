@@ -1,0 +1,7 @@
+(pages) => indent`
+  <ul>
+    ${ map(pages, (page, name) => indent`
+      <li><a href="/pages/${ name }">${ name }</a></li>
+    `) }
+  </ul>
+`
