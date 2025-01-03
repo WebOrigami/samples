@@ -1,0 +1,11 @@
+// Return only the image files in the content folder
+filter(content, globKeys(
+  *.gif: true
+  *.jpeg: true
+  *.jpg: true
+  *.png: true
+  *.svg: true
+  *.tif: true
+  *.tiff: true
+  *.webp: true
+))
