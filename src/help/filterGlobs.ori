@@ -1,5 +1,5 @@
 // Return only the image files in the content folder
-filter(content, globKeys(
+filter(content, globKeys({
   *.gif: true
   *.jpeg: true
   *.jpg: true
@@ -8,4 +8,4 @@ filter(content, globKeys(
   *.tif: true
   *.tiff: true
   *.webp: true
-))
+}))
