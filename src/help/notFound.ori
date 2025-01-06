@@ -1,0 +1,20 @@
+// Define a site with a custom "Not found" page
+deepMerge(
+
+  // Default value. A Response object cannot be served twice, so instead of
+  // serving a Response object directly, we return a function that creates a
+  // new Response object. The server will invoke that function to obtain and
+  // serve a fresh Response.
+  constant(=new:Response("I got nothing", {
+    status: 404
+  }))
+
+  // Actual resources
+  {
+    index.html: "Home"
+    a: {
+      b.html: "B"
+    }
+  }
+
+)

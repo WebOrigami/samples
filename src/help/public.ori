@@ -1,0 +1,4 @@
+{
+  name = "Alice"
+  index.html: `<h1>${ name }</h1>`
+}
