@@ -1,0 +1,7 @@
+{
+  (company): "Yoyodyne"
+  index.html: `<h1>${ company }</h1>`
+  about: {
+    index.html: `<h1>About ${ company }</h1>`
+  }
+}
