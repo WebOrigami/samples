@@ -1,0 +1,14 @@
+---
+list:
+  - Loaf of Bread
+  - Container of Milk
+  - Stick of Butter
+---
+
+Things to buy:
+
+<ul>
+  ${ map(list, (item) => indent`
+    <li>${ item }</li>
+  `) }
+</ul>
