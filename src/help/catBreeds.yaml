@@ -1,0 +1,20 @@
+- breed: Siamese
+  origin: Thailand
+  size: medium
+  coat: short
+  temperament: Vocal and Social
+- breed: Persian
+  origin: Iran
+  size: medium
+  coat: long
+  temperament: Calm and Affectionate
+- breed: Maine Coon
+  origin: United States
+  size: large
+  coat: long
+  temperament: Gentle and Friendly
+- breed: Sphynx
+  origin: Canada
+  size: medium
+  coat: hairless
+  temperament: Curious and Social
