@@ -1,5 +1,5 @@
 // Return only the image files in the given tree
-(tree) => filter(tree, globKeys({
+(tree) => mask(tree, globKeys({
   // Apply these globs at all levels
   **: {
     *.gif: true
