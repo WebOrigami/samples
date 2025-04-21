@@ -1,4 +1,4 @@
-import { concatTrees } from "@weborigami/async-tree";
+import { deepText } from "@weborigami/async-tree";
 
 const object = {
   Alice: "Hello, Alice!",
@@ -6,5 +6,5 @@ const object = {
   Carol: "Hello, Carol!",
 };
 
-const text = await concatTrees`${object}`;
+const text = await deepText`${object}`;
 export default text;
