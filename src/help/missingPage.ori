@@ -1,0 +1,4 @@
+{
+  index.html: `<a href="a.html">A</a>`
+  a.html: `<a href="b.html">B</a>`
+}
