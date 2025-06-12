@@ -1,4 +1,0 @@
-=indent`
-  Here are the fragments concatenated together:
-  ${ fragments }
-`

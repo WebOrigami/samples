@@ -1,3 +1,0 @@
-=`Bob lives in ${
-  (https://weborigami.org/samples/templates/teamData.yaml)/1/location
-}.`

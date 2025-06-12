@@ -1,7 +1,0 @@
-=indent`
-  <ul>
-    ${ map(teamData.yaml, (person) => indent`
-      <li>${ person/name }</li>
-    `) }
-  </ul>
-`

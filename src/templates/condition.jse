@@ -1,0 +1,3 @@
+(input) => input.rating
+  ? `Rating: ${ input.rating }`
+  : `Not yet rated`

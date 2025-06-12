@@ -1,4 +1,4 @@
-(contents) => indent`<!DOCTYPE html>
+(contents) => Tree.indent`<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">

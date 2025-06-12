@@ -1,7 +1,7 @@
 ---
 {
   sum: 1 + 1
-  @text: @template()
+  _body: _template()
 }
 ---
 

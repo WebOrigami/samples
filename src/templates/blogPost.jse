@@ -1,0 +1,11 @@
+(post) => Tree.indent`
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>${ post.title ?? "A blog post" }</title>
+    </head>
+    <body>
+      ${ post._body }
+    </body>
+  </html>
+`

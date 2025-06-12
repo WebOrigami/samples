@@ -1,0 +1,7 @@
+Tree.indent`
+  <ul>
+    ${ Tree.map(<teamData.yaml>, (person) => Tree.indent`
+      <li>${ person.name }</li>
+    `) }
+  </ul>
+`

@@ -1,0 +1,1 @@
+(number) => `<span class="stars">${ Origami.repeat(number, "★") }</span>`

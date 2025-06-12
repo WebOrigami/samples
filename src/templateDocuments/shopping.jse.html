@@ -8,7 +8,7 @@ list:
 Things to buy:
 
 <ul>
-  ${ map(list, (item) => indent`
+  ${ Tree.map(list, (item) => Tree.indent`
     <li>${ item }</li>
   `) }
 </ul>
