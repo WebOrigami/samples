@@ -1,0 +1,12 @@
+Tree.mask(
+  {
+    a: 1
+    b: 2
+    c: 3
+    d: 4
+  }
+  {
+    ...Tree.constant(true) // Default is to let values through the mask
+    b: false
+  }
+)

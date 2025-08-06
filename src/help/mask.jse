@@ -1,4 +1,4 @@
-mask(
+Tree.mask(
   // Source tree
   {
     a: 1

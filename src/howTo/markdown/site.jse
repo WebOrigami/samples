@@ -1,0 +1,3 @@
+{
+  pages/ = Tree.map(markdown/, Origami.mdHtml)
+}

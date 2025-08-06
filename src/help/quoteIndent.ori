@@ -1,9 +1,0 @@
-[pond.txt, cicada.txt] → (files) => indent`
-  <section>
-    ${ map(files, (file) => indent`
-      <pre>
-        ${ file }
-      </pre>
-    `) }
-  </section>
-`

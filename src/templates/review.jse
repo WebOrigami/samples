@@ -1,1 +1,1 @@
-`I give it ${ <stars.jse>(5) }`
+`I give it ${ stars.jse(5) }`

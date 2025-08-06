@@ -1,0 +1,3 @@
+{
+  user = Tree.match('[name].html', (_) => `<h1>${ _/name }</h1>`)
+}

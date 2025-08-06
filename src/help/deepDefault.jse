@@ -1,0 +1,9 @@
+Tree.deepMerge(
+  Tree.constant(0) // Default value is zero
+  {
+    a: 1
+    b: {
+      c: 2
+    }
+  }
+)

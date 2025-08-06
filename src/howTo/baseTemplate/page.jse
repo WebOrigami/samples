@@ -1,14 +1,14 @@
-(document) => indent`
+(document) => Tree.indent`
   <!DOCTYPE html>
   <html lang="en">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
-      <title>${ document/title }</title>
+      <title>${ document.title }</title>
     </head>
     <body>
-      <h1>${ document/title }</h1>
-      ${ document/@text }
+      <h1>${ document.title }</h1>
+      ${ document._body }
     </body>
   </html>
 `

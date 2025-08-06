@@ -1,0 +1,8 @@
+#!/usr/bin/env ori
+(folder) => Tree.indent`
+  <ul>
+    ${ Tree.map(Tree.keys(folder), (key) => Tree.indent`
+      <li>${ key }</li>
+    `) }
+  </ul>
+`

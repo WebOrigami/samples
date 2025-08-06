@@ -1,6 +1,0 @@
-{
-  name = "Alice"
-  public = {
-    index.html: `<h1>${ name }</h1>`
-  }
-}/public

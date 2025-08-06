@@ -1,1 +1,1 @@
-map(<movies.yaml>, <movie.jse.html>)
+Tree.map(movies.yaml, movie.jse.html)

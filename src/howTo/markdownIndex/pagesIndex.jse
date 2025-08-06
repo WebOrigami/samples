@@ -1,6 +1,6 @@
-(pages) => indent`
+(pages) => Tree.indent`
   <ul>
-    ${ map(pages, (page, name) => indent`
+    ${ Tree.map(pages, (page, name) => Tree.indent`
       <li><a href="/pages/${ name }">${ name }</a></li>
     `) }
   </ul>

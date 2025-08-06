@@ -1,3 +1,0 @@
-{
-  user = match('[name].html', =`<h1>${ _/name }</h1>`)
-}

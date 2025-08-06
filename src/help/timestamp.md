@@ -1,6 +1,6 @@
 ---
 {
-  timestamp: new:Date("2026-01-01")
+  timestamp: new Date("2026-01-01")
 }
 ---
 

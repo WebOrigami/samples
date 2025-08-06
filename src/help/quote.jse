@@ -1,6 +1,6 @@
-[pond.txt, cicada.txt] → (files) => `
+[<pond.txt>, <cicada.txt>] → (files) => `
   <section>
-    ${ map(files, (file) => `
+    ${ Tree.map(files, (file) => `
       <pre>
         ${ file }
       </pre>
