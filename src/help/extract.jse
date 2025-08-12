@@ -1,6 +1,6 @@
 Tree.deepMerge(
   // The site to get resources from
-  <httpstree://weborigami.org>
+  httpstree://weborigami.org
   
   // The set of resources we want to get
   {

@@ -1,4 +1,4 @@
-[<pond.txt>, <cicada.txt>] → (files) => Tree.indent`
+[pond.txt, cicada.txt] → (files) => Tree.indent`
   <section>
     ${ Tree.map(files, (file) => Tree.indent`
       <pre>
