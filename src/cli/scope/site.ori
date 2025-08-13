@@ -2,5 +2,5 @@
   data: {
     title: "My site"
   }
-  index.html = index.jse(data)
+  index.html = index.ori(data)
 }

@@ -1,5 +1,5 @@
 - title: Post 1
-  "@text": This is the first post
+  _body: This is the first post
 - title: Post 2
   draft: true
-  "@text": This is the second post
+  _body: This is the second post
