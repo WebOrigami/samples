@@ -1,5 +1,3 @@
-Introduction
-
 # Section 1
 
 Introduction for section 1

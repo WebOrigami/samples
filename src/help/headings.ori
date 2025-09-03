@@ -1,0 +1,9 @@
+(outline) => Tree.indent`
+  <ul>
+    ${ Tree.map(outline, (_, heading) => Tree.indent`
+      <li>
+        <a href="#${ Origami.slug(heading) }">${ heading }</a>
+      </li>
+    `)}
+  </ul>
+`
