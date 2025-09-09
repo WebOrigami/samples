@@ -1,7 +1,7 @@
 {
-  user = Tree.match('[name].html', (_) => `<h1>${ _.name }</h1>`, [
-    "Alice.html"
-    "Bob.html"
-    "Carol.html"
-  ])
+  user = Tree.match(
+    '[name].html',
+    (match) => `<h1>${ match.name }</h1>`,
+    ["Alice.html", "Bob.html", "Carol.html"]
+  )
 }
