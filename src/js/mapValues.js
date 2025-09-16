@@ -1,4 +1,4 @@
-import { map } from "@weborigami/async-tree";
+import { Tree } from "@weborigami/async-tree";
 
 const temperatures = [
   { city: "Portland", celsius: 21 },
@@ -7,7 +7,7 @@ const temperatures = [
 ];
 
 // Add a Fahrenheit property to each temperature reading
-export default map(temperatures, (reading) => ({
+export default Tree.map(temperatures, (reading) => ({
   ...reading,
   fahrenheit: 32 + (9 * reading.celsius) / 5,
 }));

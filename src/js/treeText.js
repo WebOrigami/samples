@@ -1,4 +1,4 @@
-import { text } from "@weborigami/async-tree";
+import { Tree } from "@weborigami/async-tree";
 
 const object = {
   Alice: "Hello, Alice!",
@@ -6,4 +6,4 @@ const object = {
   Carol: "Hello, Carol!",
 };
 
-export default await text`${object}`;
+export default await Tree.text`${object}`;
