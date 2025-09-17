@@ -1,0 +1,1 @@
+Tree.mapReduce(census.yaml, null, (values) => values.reduce((a, b) => a + b, 0))
