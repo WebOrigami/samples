@@ -1,4 +1,4 @@
 {
   message = "This message is defined in the Origami configuration file."
-  user.handler = user.handler.js/
+  user_handler = user_handler.js/
 }
