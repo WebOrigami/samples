@@ -1,4 +1,4 @@
-import { toString } from "@weborigami/origami";
+import { toString } from "@weborigami/async-tree";
 
 export default {
   mediaType: "application/json",
