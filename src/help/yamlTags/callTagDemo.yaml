@@ -1,0 +1,4 @@
+sample: This is plain text
+html: !ori.call
+  - Origami.mdHtml
+  - Here is some text with _formatting_.
