@@ -1,0 +1,3 @@
+(version) => {
+  [`${ version }.txt`]: "File for version " + version
+}
