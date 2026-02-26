@@ -1,0 +1,1 @@
+(name) => httpstree://cat-prints-store.weborigami.org/artwork/(`${ name }.jpg`)
