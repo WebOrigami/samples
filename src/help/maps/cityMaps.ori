@@ -1,0 +1,1 @@
+Tree.mapExtension(cities.yaml, "→.png", (city) => map.ori(city.long, city.lat))

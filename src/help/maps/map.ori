@@ -1,0 +1,7 @@
+// Calls the MapBox Static Images API to show a small map with a pin for the
+// given longitude and latitude. The location is used twice: once for the pin
+// and once for the center of the map. This requires a MapBox token in the
+// file `token.txt` in the same directory as this file.
+(long, lat) => fetch(
+  `https://api.mapbox.com/styles/v1/mapbox/streets-v12/static/pin-s+ff0000(${long},${lat})/${long},${lat},9/400x400@2x?access_token=${ token.txt }`
+)?.arrayBuffer()
