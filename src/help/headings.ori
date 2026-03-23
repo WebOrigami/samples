@@ -1,9 +1,16 @@
+// Given an outline, return navigation links. If a given heading has
+// subheadings, this template calls itself recursively.
 (outline) => Tree.indent`
   <ul>
-    ${ Tree.map(outline, (_, heading) => Tree.indent`
-      <li>
-        <a href="#${ Origami.slug(heading) }">${ heading }</a>
-      </li>
-    `)}
+    ${ Tree.map(outline, (content, heading) =>
+      heading === "_text"
+        ? ""
+        : Tree.indent`
+          <li>
+            <a href="#${ Origami.slug(heading) }">${ heading }</a>
+          </li>
+          ${ Tree.isMaplike(content) ? headings.ori(content) : "" }
+        `
+    ) }
   </ul>
 `

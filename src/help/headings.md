@@ -6,8 +6,6 @@ Introduction for section 1
 
 Text of section 1.1.
 
-More text
-
 ## Section 1.2
 
 Text of section 1.2.
