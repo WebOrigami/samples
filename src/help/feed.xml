@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>#pondlife</title>
+    <link>https://pondlife.netlify.app</link>
+    <description>Dispatches from off the grid</description>
+    <item>
+      <title>Hello from the pond!</title>
+      <link>https://pondlife.netlify.app/posts/2025-07-04.html</link>
+      <guid>https://pondlife.netlify.app/posts/2025-07-04.html</guid>
+    </item>
+  </channel>
+</rss>
