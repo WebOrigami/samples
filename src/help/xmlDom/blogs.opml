@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>
+      Blogs using Web Origami
+    </title>
+  </head>
+  <body>
+    <outline
+      type="rss"
+      text="Jim Nielsen's Blog"
+      htmlUrl="https://blog.jim-nielsen.com"
+      xmlUrl="https://blog.jim-nielsen.com/feed.xml"
+    />
+    <outline
+      type="rss"
+      text="Posts and notes from Nick Simson"
+      htmlUrl="https://www.nicksimson.com"
+      xmlUrl="https://www.nicksimson.com/feed.xml"
+    />
+    <outline
+      type="rss"
+      text="Vale.Rocks Posts"
+      htmlUrl="https://vale.rocks"
+      xmlUrl="https://vale.rocks/posts/feed.xml"
+    />
+  </body>
+</opml>

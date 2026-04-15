@@ -1,0 +1,12 @@
+<!-- Links to each blog in the OPML file -->
+<h2>Blogroll</h2>
+<ul>
+  ${ Tree.map(
+    Origami.xmlDom(blogs.opml).children[1].children,
+    (outline) => Tree.indent`
+      <li>
+        <a href="${outline.attributes.htmlUrl}">${outline.attributes.text}</a>
+      </li>
+    `
+  )}
+</ul>
