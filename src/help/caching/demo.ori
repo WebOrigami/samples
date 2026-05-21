@@ -1,0 +1,6 @@
+{
+  a: Dev.log(1, "Defining a")
+  b: Dev.log(a, "Defining b")
+  c = Dev.log(2, "Defining c")
+  d = Dev.log(c, "Defining d")
+}
