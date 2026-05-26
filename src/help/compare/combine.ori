@@ -1,2 +1,0 @@
-// Concatenate the two values
-(value1, value2) => `${ value1 ?? "_" }${ value2 ?? "_" }`

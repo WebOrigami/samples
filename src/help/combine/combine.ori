@@ -1,0 +1,2 @@
+// Concatenate the two values; use an underscore if a value is missing
+(value1, value2) => `${ value1 ?? "_" }${ value2 ?? "_" }`
